@@ -1,0 +1,30 @@
+body{
+    perspective: 500px;
+}
+
+.container{
+    
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 2px solid black;
+    transition: 1s all;
+    animation-duration: infinite;
+}
+
+.box:hover{
+    transform: rotateX(45deg);
+}
+
+button[disabled]{
+    background-color: red;
+    padding: 20px;
+
+}
+
+input + span{
+    color: red;
+}
